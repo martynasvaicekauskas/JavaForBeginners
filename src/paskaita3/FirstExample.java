@@ -55,12 +55,12 @@ public class FirstExample {
         System.out.println("1 reiksme yra " + mas[0]);
         printMas(mas);
     }
-    private static void printMas (int[] mas) { // ciklo pavyzdys
-        for (int i=0; i < mas.length; i++) {
-            System.out.println("mas["+i+"] yra >>" + mas[i]);
+
+    private static void printMas(int[] mas) { // ciklo pavyzdys
+        for (int i = 0; i < mas.length; i++) {
+            System.out.println("mas[" + i + "] yra >>" + mas[i]);
         }
     }
-
 
 
     private static void exceptionExample() {
@@ -73,6 +73,7 @@ public class FirstExample {
             System.out.println("Juk prasiau ivesti skaiciu");
         }
 
-
+    // private static boolean isStringEquals(String first, String second) { // Stringu palyginimas
+       //  return first.equals(second)
     }
 }

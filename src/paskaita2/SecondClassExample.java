@@ -21,6 +21,10 @@ public class SecondClassExample {
         className.example3();
         SecondClassExample.example2();
 
+        // konstruktoriaus iskvietimas
+        konstruktorius co = new konstruktorius();
+        konstruktorius col = new konstruktorius(12);
+
 
     }
 
