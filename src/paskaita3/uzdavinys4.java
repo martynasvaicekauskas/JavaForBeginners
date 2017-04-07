@@ -1,5 +1,6 @@
 package paskaita3;
 
+        import java.io.IOException;
         import java.util.InputMismatchException;
         import java.util.Scanner;
 
@@ -18,7 +19,7 @@ public class uzdavinys4 {
                     System.out.println("Iveskite skaiciu");
                     numb = sc.nextInt();
                     sum += numb; // kad prie sumos būtų pridėta įvestų skaičių suma
-                } catch (InputMismatchException e){
+                } catch (Exception e){
                     System.out.println("Ivedete ne skaiciu");
                     sc.nextLine(); // tam, kad toliau prasytu ivedineti skaiciu? Next ar Nextline?
                 }

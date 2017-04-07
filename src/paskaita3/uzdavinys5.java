@@ -23,7 +23,7 @@ public class uzdavinys5 {
         for (int i =0; i <5; i++) {
             System.out.print(mas[i] + "\t"); // jeigu nera "ln" spausdina vienoje eilute, \t yra "all tabs"
         }
-        System.out.println("Skaičių suma " + sum);
+        System.out.println("\n Skaičių suma " + sum);
               }
     }
 
