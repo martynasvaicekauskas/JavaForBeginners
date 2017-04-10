@@ -1,5 +1,6 @@
 package paskaita3;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
@@ -8,7 +9,7 @@ import java.util.Scanner;
 // 1.9.  Sukurti supaprastintą skaičiuoklės programą kuri paprašytų įvesti du skaičius ir operacijos tarp jų  skaičių
 // (1 – suma, 2 – skirtumas, 3 – sandauga). Gautą rezultatą programa pavaizduotų ekrane ir paklaustų ar norėsime kartoti
 // . Įvedus skaičių 5, programa turėtų kartoti darbą iš naujo, priešingu atveju programa baigtų darbą.
-public class uzduotis9 {
+public class uzdavinys9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
        // System.out.println("Iveskite pirma skaiciu:");
@@ -25,7 +26,7 @@ public class uzduotis9 {
             try {
                 double numb = scanner.nextDouble();
                 return numb;
-            } catch (Exception e) {
+            } catch (InputMismatchException e) { // neveikia, kodėl?
                 System.out.println("KA TU DARAI AR MASTAI?");
                 scanner.nextLine();
 

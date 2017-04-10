@@ -7,7 +7,8 @@ import java.util.Scanner;
 /**
  * Created by MartynasV on 2017-04-07.
  */
-// 1.5.  Parašyti programą, kuri paprašytų įvesti 5 skaičius. Baigus skaičių įvedimą, turi būti atvaizduojama įvestų skaičių suma ir visi įvesti skaičiai.
+// 1.5.  Parašyti programą, kuri paprašytų įvesti 5 skaičius. Baigus skaičių įvedimą, turi būti atvaizduojama įvestų
+// skaičių suma ir visi įvesti skaičiai.
 public class uzdavinys5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,9 +22,9 @@ public class uzdavinys5 {
             }
         System.out.println("Jus ivedete tokius skaicius");
         for (int i =0; i <5; i++) {
-            System.out.print(mas[i] + "\t"); // jeigu nera "ln" spausdina vienoje eilute, \t yra "all tabs"
+            System.out.print(mas[i] + "\t"); // jeigu nera "ln" spausdina vienoje eilute, \t palieka tarpus tarp skaič.
         }
-        System.out.println("\n Skaičių suma " + sum);
+        System.out.println("\n Skaičių suma " + sum); // \n - iš naujo eilutės.
               }
     }
 
